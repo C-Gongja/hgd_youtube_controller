@@ -1,0 +1,3 @@
+interface KeyControlStrategy {
+	void execute();
+}
