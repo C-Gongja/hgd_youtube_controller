@@ -9,9 +9,9 @@ This repository features a YouTube Controller using hand gesture recognition, em
 The hgd model, authored by Kazuhito00, forms the foundation for accurate gesture detection.
 Integration with YouTube Controller (Java):
 
-The original hgd model codes have been modified to extract outputs for integration with a YouTube video controller written in Java.
-The communication between Python and Java is facilitated using ProcessBuilder.
-Threaded Operation for Consistent Outputs:
+  * The original hgd model codes have been modified to extract outputs for integration with a YouTube video controller written in Java.
+    The communication between Python and Java is facilitated using ProcessBuilder.
+    Threaded Operation for Consistent Outputs:
 
 * Implements threads to ensure consistent retrieval of hgd model outputs.
 Utilizes the extracted gesture information to control various aspects of the YouTube video player.
