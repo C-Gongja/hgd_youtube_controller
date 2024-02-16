@@ -13,5 +13,5 @@ The original hgd model codes have been modified to extract outputs for integrati
 The communication between Python and Java is facilitated using ProcessBuilder.
 Threaded Operation for Consistent Outputs:
 
-Implements threads to ensure consistent retrieval of hgd model outputs.
+* Implements threads to ensure consistent retrieval of hgd model outputs.
 Utilizes the extracted gesture information to control various aspects of the YouTube video player.
