@@ -1,6 +1,6 @@
 # Youtube Controller using hand gesture recognition
 
-This repository features a YouTube Controller using hand gesture recognition, employing the MediaPipe library for Python. The hand gesture detection (hgd) model, initially developed by [Kazuhito00](https://github.com/Kazuhito00/hand-gesture-recognition-using-mediapipe), has been adapted to extract outputs and integrate seamlessly with a Java-based YouTube video controller. I used [translated version](https://github.com/kinivi/hand-gesture-recognition-mediapipe).
+This repository features a YouTube Controller using hand gesture recognition, employing the MediaPipe library for Python. I use the pre-trained hand gesture detection (hgd) model that was initially developed by [Kazuhito00](https://github.com/Kazuhito00/hand-gesture-recognition-using-mediapipe). I used [translated version](https://github.com/kinivi/hand-gesture-recognition-mediapipe).I developed a Java-based YouTube video controller to extract outputs from a Python-based HGD and integrate them seamlessly.
 
 ### Project Overview
 * Hand Gesture Recognition with MediaPipe:
