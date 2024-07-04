@@ -9,8 +9,8 @@ import java.util.concurrent.LinkedBlockingQueue;
 public class App {
 	public static void main(String[] args) throws Exception {
 		try {
-			String python_path = "/Applications/Project/ai_detection/hgr_mediapipe/hgr.py";
-			ProcessBuilder builder = new ProcessBuilder("python3", python_path).inheritIO().directory(new File("/Applications/Project/ai_detection/hgr_mediapipe"));
+			String python_path = "/Users/yoon/Documents/GitHub/hgd_youtube_controller/ai_detection/hgr_mediapipe/hgr.py";
+			ProcessBuilder builder = new ProcessBuilder("python3", python_path).inheritIO().directory(new File("/Users/yoon/Documents/GitHub/hgd_youtube_controller/ai_detection/hgr_mediapipe"));
 
 			Process pythonProcess = builder.start();
 			// Create a BufferedReader to read the output of the Python process
