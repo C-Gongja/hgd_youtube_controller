@@ -127,7 +127,7 @@ class handGestureRecogSingleton():
 		# Screen reflection #############################################################
 		cv.imshow('Hand Gesture Recognition', debug_image)
 		
-		return [handside, sign]
+		return [handside, sign], mode
 
 		#cap.release()
 		#cv.destroyAllWindows()

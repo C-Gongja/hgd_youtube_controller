@@ -14,7 +14,7 @@ public class KeyClick implements KeyControlStrategy{
 			// Simulate a key press
 			robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 			// Introduce a small delay (adjust the value as needed)
-            robot.delay(100);
+			robot.delay(100);
 			// Simulate a key release
 			robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 			System.out.println("Mouse Click pressed");

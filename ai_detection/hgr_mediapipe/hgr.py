@@ -65,8 +65,9 @@ def hgr():
 	mode = 0
 	hgr = handGestureRecogSingleton(hands, keypoint_classifier_labels, point_history_classifier_labels)
 	pre_hgr_sign = ""
+	
 	while True:
-		hgr_sign = handGestureRecogSingleton.handGestureRecognition(hgr, cap, point_history, finger_gesture_history, mode, use_brect)
+		hgr_sign, mode = handGestureRecogSingleton.handGestureRecognition(hgr, cap, point_history, finger_gesture_history, mode, use_brect)
 		if hgr_sign[1] == False:
 			break
 		

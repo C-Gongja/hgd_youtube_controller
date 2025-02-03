@@ -1,15 +1,14 @@
 package hgr_controller;
 
 import java.io.File;
-
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
 public class App {
 	public static void main(String[] args) throws Exception {
 		try {
-			String python_path = "/Applications/Project/ai_detection/hgr_mediapipe/hgr.py";
-			String pythonSrcDirectory = "/Applications/Project/ai_detection/hgr_mediapipe";
+			String python_path = "/Users/yoon/Documents/GitHub/hgd_youtube_controller/ai_detection/hgr_mediapipe/hgr.py";
+			String pythonSrcDirectory = "/Users/yoon/Documents/GitHub/hgd_youtube_controller/ai_detection/hgr_mediapipe";
 
 			//ProcessBuilder builder = new ProcessBuilder("python3","-u", python_path).InheritIO().directory(new File(pythonSrcDirectory));
 			//Had problem with inheritIO(). Don't know why, but it works when I deleted.

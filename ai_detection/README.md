@@ -1,6 +1,7 @@
 # Using Hand Gesture Recogniton to Contorl some of keys and mouse functions.
 
 ### Using Robot to Simulate Keys 
+
 ##### how to activate
 	- go to settings -> accessibility -> turn on Terminal & VSCode
 
